@@ -1,10 +1,10 @@
 // Set the date we're counting down to
         var currentYear = new Date().getFullYear();
-        var countDownDate = new Date("Feb 14, " + currentYear + " 12:00:00 AM GMT+1 (CET)").getTime();
+        var countDownDate = new Date("September 11, " + currentYear + " 12:00:00 AM GMT+1 (CET)").getTime();
         var now = new Date().getTime();
         if (countDownDate < now) {
               var currentYear = new Date().getFullYear()+1;
-              var countDownDate = new Date("Feb 14, " + currentYear + " 12:00:00 AM GMT+1 (CET)").getTime();
+              var countDownDate = new Date("September 11, " + currentYear + " 12:00:00 AM GMT+1 (CET)").getTime();
         }
         // Update the count down every 1 second
         var x = setInterval(function() {
@@ -14,7 +14,7 @@
             var distance = countDownDate - now;
             if (countDownDate < now) {
               currentYear = new Date().getFullYear()+1;
-              countDownDate = new Date("Feb 14, " + currentYear + " 12:00:00 AM GMT+1 (CET)").getTime();
+              countDownDate = new Date("September 11, " + currentYear + " 12:00:00 AM GMT+1 (CET)").getTime();
             }
             // Calculate the number of days until the countdown date
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
